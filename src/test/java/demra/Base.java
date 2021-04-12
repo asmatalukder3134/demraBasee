@@ -13,6 +13,7 @@ public class Base {
 		RestAssured.baseURI="";
 		 request=RestAssured.given();
 		rs=request.request(Method.OPTIONS,"");
+		System.out.println(33);
 		
 		
 	}
